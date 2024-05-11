@@ -1,0 +1,89 @@
+.shop-section {
+  padding-top: 100px;
+  background-color: var(--yellow);
+}
+.shop-section h4 {
+  font-size: 2.25rem;
+  color: var(--bg-coffee);
+  font-weight: 400;
+}
+.shop-section h2 {
+  font-size: 4.25rem;
+  color: var(--bg-coffee);
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.shop-section p {
+  color: var(--bg-coffee);
+  font-size: 1.175rem;
+  margin-bottom: 40px;
+  padding-right: 10%;
+}
+.shop-section .store-img {
+  max-width: 40%;
+}
+.brand-section {
+  padding: 70px 0 40px;
+  background-color: var(--light-grey);
+  overflow: hidden;
+}
+.brand-section .brand-img {
+  width: 180px;
+  height: auto;
+}
+.carousel.slide .carousel-inner {
+  overflow: unset;
+}
+.carousel.slide .carousel-inner .carousel-caption {
+  position: relative;
+  right: unset;
+  left: unset;
+}
+
+@media (max-width: 1200px) {
+  .shop-section h4 {
+    font-size: 2.05rem;
+  }
+  .shop-section h2 {
+    font-size: 3.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .shop-section h4 {
+    font-size: 2rem;
+  }
+  .shop-section h2 {
+    font-size: 2.75rem;
+  }
+  .shop-section p {
+    font-size: 1rem;
+    padding-right: 0;
+  }
+  .brand-section .brand-img {
+    width: 100px;
+    height: auto;
+  }
+  .brand-section {
+    padding: 20px 0 10px;
+  }
+}
+@media (max-width: 330px) {
+  .shop-section h4 {
+    font-size: 1.5rem;
+  }
+  .shop-section h2 {
+    font-size: 1.75rem;
+  }
+  .shop-section p {
+    font-size: 0.75rem;
+    padding-right: 0;
+  }
+  .brand-section .brand-img {
+    width: 70px;
+    height: auto;
+  }
+  .brand-section {
+    padding: 10px 0 5px;
+  }
+}

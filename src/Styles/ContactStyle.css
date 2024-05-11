@@ -1,0 +1,41 @@
+.contact-section {
+  background: url("../assets/footer/banner-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.contact-section h4 {
+  font-size: 2.375rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.contact-section h2 {
+  font-size: 4.5rem;
+  margin-bottom: 25px;
+}
+.contact-section p {
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.contact-section a {
+  font-size: 22px;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .contact-section h2 {
+    font-size: 3.5rem;
+  }
+  .contact-section p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 340px) {
+  .contact-section h2 {
+    font-size: 2.3rem;
+  }
+}

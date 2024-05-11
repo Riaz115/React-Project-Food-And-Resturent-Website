@@ -1,0 +1,106 @@
+.menu-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card-img-top {
+  transition: all 500ms ease-in-out;
+}
+.menu-section h1 {
+  font-size: 3.5rem;
+  color: var(--light-red);
+}
+.menu-section .para {
+  font-size: 19px;
+  color: var(--grey);
+  padding: 10px 100px;
+}
+.menu-section .card-rating i {
+  color: var(--yellow);
+  padding-left: 5px;
+}
+.menu-section .whishlist i {
+  color: var(--grey);
+  font-size: 20px;
+  cursor: pointer;
+}
+.menu-section .whishlist i:hover {
+  color: var(--light-red);
+}
+.menu-section .card-title {
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.menu-section .card-text {
+  color: var(--grey);
+  font-size: 15px;
+}
+.menu-section .card-price {
+  background-color: var(--bg-coffee);
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 4px;
+}
+.menu-section .card-price h5 {
+  color: var(--yellow);
+  font-size: 1rem;
+}
+.menu-section .add-to-card a {
+  text-decoration: none;
+  background: var(--yellow);
+  padding: 8px 14px;
+  line-height: 1;
+  color: var(--light-black);
+  font-size: 1rem;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 500ms ease-in-out;
+}
+.menu-section .card:hover .card-img-top {
+  transform: scale(1.2);
+}
+.menu-section .card:hover .add-to-card a {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.menu-section .ads-box {
+  text-align: right;
+  padding: 80px 35px 50px;
+  border-radius: 6px;
+}
+
+.menu-section .ads-img1 {
+  background: url("../assets/menu/ads-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+.menu-section .ads-img2 {
+  background: url("../assets/menu/ads-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+.menu-section .ads-box h4 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: var(--brown);
+}
+.menu-section .ads-box h5 {
+  font-size: 2.375rem;
+  color: var(--brown);
+}
+.menu-section .ads-box button {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .menu-section h1 {
+    font-size: 2.5rem;
+  }
+  .menu-section .para {
+    padding: 10px 0px;
+  }
+}

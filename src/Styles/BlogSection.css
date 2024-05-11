@@ -1,0 +1,37 @@
+.blog-section {
+  padding: 100px 0 80px;
+  background: url("../assets//blog/reviews.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.blog-section .blog-img img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+.blog-section .para {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  padding: 0 12%;
+}
+.blog-section .myname {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.blog-section .item-rating {
+  color: var(--yellow);
+}
+.blog-section .item-rating i {
+  margin-right: 5px;
+}
+@media (max-width: 767px) {
+  .blog-section .para {
+    font-size: 1rem;
+
+    padding: 0 12%;
+  }
+}

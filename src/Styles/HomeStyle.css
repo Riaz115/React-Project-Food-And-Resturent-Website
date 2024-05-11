@@ -1,0 +1,79 @@
+/* Home css */
+
+.section1 {
+  position: relative;
+  background: url("../assets/hero/hero-1.jpg") no-repeat center center;
+  padding-top: 170px;
+  padding-bottom: 90px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section1 .price-badge {
+  background: url("../assets//hero/price-badge-yellow.png") no-repeat center
+    center;
+  background-size: cover;
+  position: absolute;
+  height: 176px;
+  width: 180px;
+  text-align: center;
+  border-radius: 50%;
+  top: -20px;
+  right: 5px;
+}
+
+.section1 .price-badge .badge-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section1 .price-badge .badge-text .price-text {
+  font-size: 1.875rem;
+  line-height: 1;
+  font-weight: 600;
+}
+.section1 .price-badge .badge-text .price-amount {
+  font-size: 2.875rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.section1 .section1-text h1 {
+  font-size: 7rem;
+  line-height: 1;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-family: var(--lilita-font);
+}
+.section1 .section1-text h3 {
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  font-family: var(--lilita-font);
+}
+.section1 .section1-text p {
+  padding: 0 5%;
+}
+
+@media (max-width: 767px) {
+  .section1 .section1-text h1 {
+    font-size: 5.5rem;
+  }
+  .section1 .price-badge {
+    height: 160px;
+    width: 160px;
+  }
+}
+@media (max-width: 330px) {
+  .section1 .section1-text h1 {
+    font-size: 4.5rem;
+  }
+  .section1 .price-badge {
+    height: 120px;
+    width: 120px;
+  }
+  .section1 .price-badge .badge-text .price-amount {
+    font-size: 2.175rem;
+  }
+}
