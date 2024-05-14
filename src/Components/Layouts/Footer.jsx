@@ -62,12 +62,12 @@ function Footer() {
                   </li>
                   <li>
                     <Link to="/">
-                      <i className="bi bi-youtube"></i>
+                      <i className="bi bi-github"></i>
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i className="bi bi-twitter"></i>
+                      <i className="bi bi-whatsapp"></i>
                     </Link>
                   </li>
                   <li>
