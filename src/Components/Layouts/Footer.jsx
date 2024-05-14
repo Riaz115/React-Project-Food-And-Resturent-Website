@@ -56,7 +56,7 @@ function Footer() {
 
                 <ul className="list-unstyled text-center mt-2">
                   <li>
-                    <Link to="/">
+                    <Link to="https://www.facebook.com/profile.php?id=61558080662338&mibextid=kFxxJD">
                       <i className="bi bi-facebook"></i>
                     </Link>
                   </li>
