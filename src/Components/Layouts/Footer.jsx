@@ -56,7 +56,7 @@ function Footer() {
 
                 <ul className="list-unstyled text-center mt-2">
                   <li>
-                    <Link to="/https://www.linkedin.com/in/riaz-ahmad-690870308">
+                    <Link to="https://www.linkedin.com/in/riaz-ahmad-690870308">
                       <i className="bi bi-linkedin"></i>
                     </Link>
                   </li>
