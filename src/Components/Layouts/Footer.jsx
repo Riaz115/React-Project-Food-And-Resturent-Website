@@ -61,17 +61,17 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/https://www.github.com/riaz115">
+                    <Link to="https://www.github.com/riaz115">
                       <i className="bi bi-github"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/https://wa.me/+923280182715">
+                    <Link to="https://wa.me/+923280182715">
                       <i className="bi bi-whatsapp"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/https://www.instagram.com/riaz90603?utm_source=qr&igsh=OGU0MmVlOWVjOQ%3D%3D">
+                    <Link to="https://www.instagram.com/riaz90603?utm_source=qr&igsh=OGU0MmVlOWVjOQ%3D%3D">
                       <i className="bi bi-instagram"></i>
                     </Link>
                   </li>
