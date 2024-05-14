@@ -56,22 +56,22 @@ function Footer() {
 
                 <ul className="list-unstyled text-center mt-2">
                   <li>
-                    <Link to="/https://www.facebook.com/profile.php?id=61558080662338&mibextid=kFxxJD">
-                      <i className="bi bi-facebook"></i>
+                    <Link to="/https://www.linkedin.com/in/riaz-ahmad-690870308">
+                      <i className="bi bi-linkedin"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/https://www.github.com/riaz115">
                       <i className="bi bi-github"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/https://wa.me/+923280182715">
                       <i className="bi bi-whatsapp"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/https://www.instagram.com/riaz90603?utm_source=qr&igsh=OGU0MmVlOWVjOQ%3D%3D">
                       <i className="bi bi-instagram"></i>
                     </Link>
                   </li>
