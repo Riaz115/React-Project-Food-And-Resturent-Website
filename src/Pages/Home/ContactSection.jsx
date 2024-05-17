@@ -19,7 +19,7 @@ function ContactSection() {
               </p>
               <Link to="/">
                 <button className="red-btn px-4 py-2 ">
-                  Call 0344-8488752
+                  Call 0328-0182715
                 </button>
               </Link>
             </Col>
