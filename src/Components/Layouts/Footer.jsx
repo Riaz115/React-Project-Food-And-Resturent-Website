@@ -44,7 +44,7 @@ function Footer() {
                 <p className="text-capitalize">my name is m .riaz ahmad</p>
                 <p>
                   <Link to="/" className="calling">
-                    03448488752
+                    0328-0182715
                   </Link>
                 </p>
               </div>
